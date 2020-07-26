@@ -77,6 +77,8 @@ main {
 .search-result-section {
     display:none;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .search-result-section > div {
     margin: 10px 0px 10px 0px;
