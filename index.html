@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chinese Learning App</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="css/index.css">
+
+        <script src="https://cdn.jsdelivr.net/npm/hanzi-writer@2.2/dist/hanzi-writer.min.js"></script>
+        <script src="js/index.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Chinese Learning App</h1>
+        </header>
+        <nav>
+            <ul id="menuNav">
+                <li>
+                    <a href="#" class="nav-links">Home</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-links">Learn</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-links">Test</a>
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h3>Chinese Character Search:</h3><br>
+                <div>
+                    <input type="text" placeholder="eg. 你" id="search">
+                    <button id="searchButton" onclick="search()" class="btn">Search</button>
+                </div><br><br>
+                <div class="search-result-section">
+                    <div id="searchResult">
+                        <p>Animation: </p>
+                    </div>
+                    <div id="practice">
+                        <p>Practice: </p>
+                        <input type="checkbox" onchange="showPracticeOutline()" id="outlineOrNot"> Show outline
+                        <button id="clearPractice" class="btn" onclick="clearPractice()">Clear</button>
+                    </div>   
+                </div>
+                           
+            </section>
+        </main>
+        
+      
+    </body>
+</html>
