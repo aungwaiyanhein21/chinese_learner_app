@@ -1,0 +1,23 @@
+[
+    {
+        "pinyin": "shén me",
+        "def": "what",
+        "char": "什么"
+    },
+    {
+        "pinyin": "gōng",
+        "def": "to work",
+        "char": "工"
+    },
+    {
+        "pinyin": "hǎo", 
+        "def": "good",
+        "char": "好"
+    },
+	{
+		"pinyin": "nǐ", 
+        "def": "you",
+        "char": "你"
+	}
+	
+]
