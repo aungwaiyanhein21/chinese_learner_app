@@ -1,23 +1,7 @@
 [
     {
-        "pinyin": "shén me",
+        "pinyin": "sh\u00e9n me",
         "def": "what",
-        "char": "什么"
-    },
-    {
-        "pinyin": "gōng",
-        "def": "to work",
-        "char": "工"
-    },
-    {
-        "pinyin": "hǎo", 
-        "def": "good",
-        "char": "好"
-    },
-	{
-		"pinyin": "nǐ", 
-        "def": "you",
-        "char": "你"
-	}
-	
+        "char": "\u4ec0\u4e48"
+    }
 ]

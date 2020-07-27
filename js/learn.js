@@ -1,4 +1,5 @@
 //eg.
+/*
 var wordsArr = [
     {
         "pinyin": "shén me",
@@ -16,7 +17,9 @@ var wordsArr = [
         "char": "好"
     }
 ];
+*/
 
+var wordsArr;
 var hanziWriterObjArr = [];
 
 function learn() {
@@ -24,33 +27,54 @@ function learn() {
         return;
     }
 
-    for (var i=0; i < wordsArr.length; i++ ) {
-        var wordObj = wordsArr[i];
+    // get json data
+    if (wordsArr === undefined) {
+        getWords();
+    }
+}
 
-        var wordContainerEle = createWordContainer(wordObj, i);
-        document.querySelector(".all-words-container").appendChild(wordContainerEle);
+function getWords() {
+    var xmlhttp = new XMLHttpRequest();
+    var url = "https://jamesrocker.github.io/chinese_learner_app/words.json";
 
-        var charBoxID = "charBox"+i;
-        var characters = wordObj['char'];
-
-        var charArray = characters.split("");
+    xmlhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            wordsArr = JSON.parse(this.responseText);
+            console.log(wordsArr);
+            
+            // loop over the array and create hanziWriterObjArr
+            for (var i=0; i < wordsArr.length; i++ ) {
+                var wordObj = wordsArr[i];
         
+                var wordContainerEle = createWordContainer(wordObj, i);
+                document.querySelector(".all-words-container").appendChild(wordContainerEle);
+        
+                var charBoxID = "charBox"+i;
+                var characters = wordObj['char'];
+        
+                var charArray = characters.split("");
+                
+        
+                var char = charArray[0];
+                var writer = HanziWriter.create(charBoxID, char, {
+                    width: 150,
+                    height: 150,
+                    padding: 5,
+                    strokeColor: '#000000', // black
+                    delayBetweenLoops: 3000
+                });      
+        
+                hanziWriterObjArr[i] = {
+                    "writerObj": writer,
+                    "charArr": charArray
+                };
+             
+            }      
+        }
+    };
 
-        var char = charArray[0];
-        var writer = HanziWriter.create(charBoxID, char, {
-            width: 150,
-            height: 150,
-            padding: 5,
-            strokeColor: '#000000', // black
-            delayBetweenLoops: 3000
-        });      
-
-        hanziWriterObjArr[i] = {
-            "writerObj": writer,
-            "charArr": charArray
-        };
-     
-    }        
+    xmlhttp.open("GET", url, true);
+    xmlhttp.send(); 
 }
 
 function createWordContainer(wordObj, indx) {
@@ -142,6 +166,7 @@ function animate(index) {
         animateCharObj.animateCharacter({
             onComplete: function() {
                 animateCharObj.updateColor('strokeColor', '#000000');
+                animateCharObj.setCharacter(charArr[0]);
             }
         });        
     }
