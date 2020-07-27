@@ -98,5 +98,105 @@
         "pinyin": "g\u014dng",
         "def": "work",
         "char": "\u5de5"
+    },
+    {
+        "pinyin": "w\u00e1ng",
+        "def": "king",
+        "char": "\u738b"
+    },
+    {
+        "pinyin": "k\u0101i",
+        "def": "open/drive",
+        "char": "\u5f00"
+    },
+    {
+        "pinyin": "ti\u0101n",
+        "def": "sky/day",
+        "char": "\u5929"
+    },
+    {
+        "pinyin": "y\u00fan",
+        "def": "cloud",
+        "char": "\u4e91"
+    },
+    {
+        "pinyin": "b\u00f9",
+        "def": "not",
+        "char": "\u4e0d"
+    },
+    {
+        "pinyin": "t\u00e0i",
+        "def": "very",
+        "char": "\u592a"
+    },
+    {
+        "pinyin": "y\u01d2u",
+        "def": "friend",
+        "char": "\u53cb"
+    },
+    {
+        "pinyin": "ch\u0113",
+        "def": "car",
+        "char": "\u8f66"
+    },
+    {
+        "pinyin": "y\u00e1",
+        "def": "teeth",
+        "char": "\u7259"
+    },
+    {
+        "pinyin": "b\u00ed",
+        "def": "compair",
+        "char": "\u6bd4"
+    },
+    {
+        "pinyin": "sh\u00e1o",
+        "def": "less",
+        "char": "\u5c11"
+    },
+    {
+        "pinyin": "r\u00ec",
+        "def": "day/sun",
+        "char": "\u65e5"
+    },
+    {
+        "pinyin": "zh\u014dng",
+        "def": "middle/chinese",
+        "char": "\u4e2d"
+    },
+    {
+        "pinyin": "shu\u01d0",
+        "def": "water",
+        "char": "\u6c34"
+    },
+    {
+        "pinyin": "ji\u00e0n",
+        "def": "meet",
+        "char": "\u89c1"
+    },
+    {
+        "pinyin": "w\u01d4",
+        "def": "noon/midway",
+        "char": "\u5348"
+    },
+    {
+        "pinyin": "sh\u01d2u",
+        "def": "hand",
+        "char": "\u624b"
+    },
+    {
+        "pinyin": "q\u00ed",
+        "def": "air",
+        "char": "\u6c14"
+    },
+    {
+        "pinyin": "m\u01ceo",
+        "def": "hair/feather",
+        "char": "\u6bdb"
+    },
+    {
+        "pinyin": "sh\u00e9n me",
+        "def": "what",
+        "char": "\u4ec0\u4e48"
     }
 ]
