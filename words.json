@@ -48,5 +48,55 @@
         "pinyin": "sh\u00e0ng",
         "def": "up",
         "char": "\u4e0a"
+    },
+    {
+        "pinyin": "xi\u00e0",
+        "def": "down",
+        "char": "\u4e0b"
+    },
+    {
+        "pinyin": "m\u00f9",
+        "def": "wood",
+        "char": "\u6728"
+    },
+    {
+        "pinyin": "m\u00e9n",
+        "def": "door",
+        "char": "\u95e8"
+    },
+    {
+        "pinyin": "j\u01d0",
+        "def": "how many",
+        "char": "\u51e0"
+    },
+    {
+        "pinyin": "y\u00f2u",
+        "def": "both...and",
+        "char": "\u53c8"
+    },
+    {
+        "pinyin": "f\u0113i",
+        "def": "fly",
+        "char": "\u98de"
+    },
+    {
+        "pinyin": "m\u01ce",
+        "def": "horse",
+        "char": "\u9a6c"
+    },
+    {
+        "pinyin": "y\u00ed",
+        "def": "already",
+        "char": "\u5df2"
+    },
+    {
+        "pinyin": "ji\u01d4",
+        "def": "long(duration of time)",
+        "char": "\u4e45"
+    },
+    {
+        "pinyin": "g\u014dng",
+        "def": "work",
+        "char": "\u5de5"
     }
 ]
