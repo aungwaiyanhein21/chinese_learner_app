@@ -28,7 +28,7 @@ function search() {
     var inputValue = inputElement.value;
 
     if (inputValue.length > 1) {
-        alert("Please type one character. Currently support one character.");
+        alert("Please type only one character. Currently working on multiple characters");
         return;
     }
 
