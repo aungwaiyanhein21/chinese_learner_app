@@ -23,5 +23,30 @@
         "pinyin": "xi\u01ceo",
         "def": "small",
         "char": "\u5c0f"
+    },
+    {
+        "pinyin": "n\u01da",
+        "def": "girl",
+        "char": "\u5973"
+    },
+    {
+        "pinyin": "d\u0101o",
+        "def": "knife",
+        "char": "\u5200"
+    },
+    {
+        "pinyin": "l\u00ec",
+        "def": "force",
+        "char": "\u529b"
+    },
+    {
+        "pinyin": "g\u00e8",
+        "def": "measure word",
+        "char": "\u4e2a"
+    },
+    {
+        "pinyin": "sh\u00e0ng",
+        "def": "up",
+        "char": "\u4e0a"
     }
 ]
