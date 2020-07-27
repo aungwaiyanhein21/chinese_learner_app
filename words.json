@@ -1,7 +1,27 @@
 [
     {
-        "pinyin": "sh\u00e9n me",
-        "def": "what",
-        "char": "\u4ec0\u4e48"
+        "pinyin": "r\u00e9n",
+        "def": "people",
+        "char": "\u4eba"
+    },
+    {
+        "pinyin": "r\u00f9",
+        "def": "entrance",
+        "char": "\u5165"
+    },
+    {
+        "pinyin": "d\u00e0",
+        "def": "big",
+        "char": "\u5927"
+    },
+    {
+        "pinyin": "k\u01d2u",
+        "def": "mouth",
+        "char": "\u53e3"
+    },
+    {
+        "pinyin": "xi\u01ceo",
+        "def": "small",
+        "char": "\u5c0f"
     }
 ]
