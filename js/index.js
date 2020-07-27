@@ -1,3 +1,8 @@
+const HOME = 1;
+const LEARN = 2;
+const TEST = 3;
+var current = HOME; 
+
 window.onload = init;
 
 function init() {
@@ -124,27 +129,30 @@ function clearPractice() {
     showPracticeOutline();
 }
 
-/*
-function createWriter(charBoxID, char, paramDic=null) {
 
-    if (paramDic === null) {
-        var writerDic = {
-            width: 100,
-            height: 100,
-            padding: 5,
-            strokeColor: '#FF0000', // red
-        };
-        var writer = HanziWriter.create(charBoxID, char, writerDic);
+function changeState(state) {
+    if (current === state) {
+        return;
     }
-    else {
-        var writer = HanziWriter.create(charBoxID, char, paramDic);
-    }
-  
-   
 
-    return writer;
+    document.getElementById("link"+current).classList.toggle("selected");
+    document.getElementById("section"+current).classList.toggle("section-not-selected");
+
+    current = state;
+
+    document.getElementById("link"+current).classList.toggle("selected");
+    document.getElementById("section"+current).classList.toggle("section-not-selected");
+
+    //hide current section
+
+
+    if (current === LEARN) {
+        learn();
+    }
+    if (current === TEST) {
+        //alert("Test");
+    }
 }
-*/
 
 
 

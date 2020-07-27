@@ -8,27 +8,28 @@
         <link rel="stylesheet" href="css/index.css">
 
         <script src="https://cdn.jsdelivr.net/npm/hanzi-writer@2.2/dist/hanzi-writer.min.js"></script>
-        <script src="js/index.js"></script>
+        <script src="js/index.js" defer></script>
+        <script src="js/learn.js" defer></script>
     </head>
     <body>
         <header>
-            <h1>Chinese Learning App</h1>
+            <h1>Learn Chinese</h1>
         </header>
         <nav>
             <ul id="menuNav">
                 <li>
-                    <a href="#" class="nav-links">Home</a>
+                    <span class="nav-links selected" onclick="changeState(1)" id="link1">Home</span>
                 </li>
                 <li>
-                    <a href="#" class="nav-links">Learn</a>
+                    <span class="nav-links" onclick="changeState(2)" id="link2">Learn</span>
                 </li>
                 <li>
-                    <a href="#" class="nav-links">Test</a>
+                    <span class="nav-links" onclick="changeState(3)" id="link3">Test</span>
                 </li>
             </ul>
         </nav>
         <main>
-            <section>
+            <section id="section1">
                 <h3>Chinese Character Search:</h3><br>
                 <div>
                     <input type="text" placeholder="eg. 你" id="search">
@@ -45,6 +46,16 @@
                     </div>   
                 </div>
                            
+            </section>
+            <section id="section2" class="section-not-selected">
+                <h3>Learn</h3><br>
+                <div class="all-words-container">
+                    
+                </div>
+            </section>
+
+            <section id="section3" class="section-not-selected">
+                <h3>Test(coming soon...)</h3><br>
             </section>
         </main>
         
