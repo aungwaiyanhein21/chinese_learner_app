@@ -129,5 +129,10 @@ main > section > h3 {
     margin-top: 10px;
 }
 
+.learn-options {
+    display: flex;
+    justify-content: center;
+}
+
 
 

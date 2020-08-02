@@ -278,3 +278,10 @@ function tryWriting(index) {
         animateCharObj.quiz(params);
     }
 }
+
+// try all option
+function practiceAll() {
+    for (var i=0; i < hanziWriterObjArr.length; i++) {
+        tryWriting(i);
+    }
+}
