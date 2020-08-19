@@ -198,5 +198,110 @@
         "pinyin": "sh\u00e9n me",
         "def": "what",
         "char": "\u4ec0\u4e48"
+    },
+    {
+        "pinyin": "w\u01d2",
+        "def": "I",
+        "char": "\u6211"
+    },
+    {
+        "pinyin": "n\u01d0",
+        "def": "you",
+        "char": "\u4f60"
+    },
+    {
+        "pinyin": "t\u0101",
+        "def": "he",
+        "char": "\u4ed6"
+    },
+    {
+        "pinyin": "t\u0101",
+        "def": "she",
+        "char": "\u5979"
+    },
+    {
+        "pinyin": "t\u01d4",
+        "def": "soil/earth",
+        "char": "\u571f"
+    },
+    {
+        "pinyin": "sh\u0101n",
+        "def": "hill",
+        "char": "\u5c71"
+    },
+    {
+        "pinyin": "zi/z\u01d0",
+        "def": "son/person/boy/seed",
+        "char": "\u5b50"
+    },
+    {
+        "pinyin": "ni\u00fa",
+        "def": "cow",
+        "char": "\u725b"
+    },
+    {
+        "pinyin": "c\u00f3ng",
+        "def": "from",
+        "char": "\u4ece"
+    },
+    {
+        "pinyin": "d\u00ec",
+        "def": "ground",
+        "char": "\u5730"
+    },
+    {
+        "pinyin": "y\u011b",
+        "def": "also",
+        "char": "\u4e5f"
+    },
+    {
+        "pinyin": "q\u00f9",
+        "def": "go",
+        "char": "\u53bb"
+    },
+    {
+        "pinyin": "l\u00e1i",
+        "def": "come",
+        "char": "\u6765"
+    },
+    {
+        "pinyin": "t\u00f3u",
+        "def": "head",
+        "char": "\u5934"
+    },
+    {
+        "pinyin": "m\u01d0",
+        "def": "rice",
+        "char": "\u7c73"
+    },
+    {
+        "pinyin": "ti\u00e1n",
+        "def": "field",
+        "char": "\u7530"
+    },
+    {
+        "pinyin": "m\u00f9",
+        "def": "eye",
+        "char": "\u76ee"
+    },
+    {
+        "pinyin": "yu\u00e8",
+        "def": "moon/month",
+        "char": "\u6708"
+    },
+    {
+        "pinyin": "\u011br",
+        "def": "ear",
+        "char": "\u8033"
+    },
+    {
+        "pinyin": "yu\u00e1n",
+        "def": "currency/basic monetary unit of China",
+        "char": "\u5143"
+    },
+    {
+        "pinyin": "sh\u00e9",
+        "def": "tongue",
+        "char": "\u820c"
     }
 ]
