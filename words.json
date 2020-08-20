@@ -303,5 +303,115 @@
         "pinyin": "sh\u00e9",
         "def": "tongue",
         "char": "\u820c"
+    },
+    {
+        "pinyin": "x\u012bn",
+        "def": "heart/mind",
+        "char": "\u5fc3"
+    },
+    {
+        "pinyin": "hu\u01d2",
+        "def": "fire",
+        "char": "\u706b"
+    },
+    {
+        "pinyin": "h\u00e9",
+        "def": "grain",
+        "char": "\u79be"
+    },
+    {
+        "pinyin": "y\u012b",
+        "def": "one",
+        "char": "\u4e00"
+    },
+    {
+        "pinyin": "\u00e8r",
+        "def": "two",
+        "char": "\u4e8c"
+    },
+    {
+        "pinyin": "s\u0101n",
+        "def": "three",
+        "char": "\u4e09"
+    },
+    {
+        "pinyin": "s\u00ec",
+        "def": "four",
+        "char": "\u56db"
+    },
+    {
+        "pinyin": "w\u01d4",
+        "def": "five",
+        "char": "\u4e94"
+    },
+    {
+        "pinyin": "li\u00f9",
+        "def": "six",
+        "char": "\u516d"
+    },
+    {
+        "pinyin": "q\u012b",
+        "def": "seven",
+        "char": "\u4e03"
+    },
+    {
+        "pinyin": "b\u0101",
+        "def": "eight",
+        "char": "\u516b"
+    },
+    {
+        "pinyin": "ji\u01d4",
+        "def": "nine",
+        "char": "\u4e5d"
+    },
+    {
+        "pinyin": "sh\u00ed",
+        "def": "ten",
+        "char": "\u5341"
+    },
+    {
+        "pinyin": "b\u00e1i",
+        "def": "white",
+        "char": "\u767d"
+    },
+    {
+        "pinyin": "b\u01cei",
+        "def": "hundred",
+        "char": "\u767e"
+    },
+    {
+        "pinyin": "x\u012b",
+        "def": "sunset",
+        "char": "\u5915"
+    },
+    {
+        "pinyin": "du\u014d",
+        "def": "many",
+        "char": "\u591a"
+    },
+    {
+        "pinyin": "m\u00edng",
+        "def": "name",
+        "char": "\u540d"
+    },
+    {
+        "pinyin": "zi/z\u00ec",
+        "def": "words",
+        "char": "\u5b57"
+    },
+    {
+        "pinyin": "d\u00e8/de",
+        "def": "'s",
+        "char": "\u7684"
+    },
+    {
+        "pinyin": "ji\u00e0o",
+        "def": "call/shout",
+        "char": "\u53eb"
+    },
+    {
+        "pinyin": "m\u0101",
+        "def": "?",
+        "char": "\u5417"
     }
 ]
