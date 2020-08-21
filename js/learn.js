@@ -57,8 +57,10 @@ function getWords() {
         
                 var char = charArray[0];
                 var writer = HanziWriter.create(charBoxID, char, {
-                    width: 150,
-                    height: 150,
+                    //width: 150,
+                    //height: 150,
+                    width: 250,
+                    height: 250,
                     padding: 5,
                     strokeColor: '#000000', // black
                     delayBetweenLoops: 3000

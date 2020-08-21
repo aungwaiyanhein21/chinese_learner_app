@@ -57,8 +57,8 @@ function search() {
    
     // for animation
     var charWriter = HanziWriter.create("searchCharBox", inputValue, {
-        width: 150,
-        height: 150,
+        width: 250,
+        height: 250,
         padding: 5,
         strokeColor: '#FF0000', // red
         delayBetweenLoops: 3000,
@@ -108,8 +108,8 @@ function showPracticeOutline() {
     var inputVal = document.getElementById("search").value;
 
     propertyDic = {
-        width: 150,
-        height: 150,
+        width: 250,
+        height: 250,
         padding: 5,
         strokeColor: '#FF0000', // red
         highlightOnComplete: true,
