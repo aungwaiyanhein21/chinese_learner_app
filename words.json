@@ -2,416 +2,499 @@
     {
         "pinyin": "r\u00e9n",
         "def": "people",
-        "char": "\u4eba"
+        "char": "\u4eba",
+        "audio_tone": "re2n"
     },
     {
         "pinyin": "r\u00f9",
         "def": "entrance",
-        "char": "\u5165"
+        "char": "\u5165",
+        "audio_tone": "ru4"
     },
     {
         "pinyin": "d\u00e0",
         "def": "big",
-        "char": "\u5927"
+        "char": "\u5927",
+        "audio_tone": "da4"
     },
     {
         "pinyin": "k\u01d2u",
         "def": "mouth",
-        "char": "\u53e3"
+        "char": "\u53e3",
+        "audio_tone": "ko3u"
     },
     {
         "pinyin": "xi\u01ceo",
         "def": "small",
-        "char": "\u5c0f"
+        "char": "\u5c0f",
+        "audio_tone": "xia3o"
     },
     {
         "pinyin": "n\u01da",
         "def": "girl",
-        "char": "\u5973"
+        "char": "\u5973",
+        "audio_tone": "nv3"
     },
     {
         "pinyin": "d\u0101o",
         "def": "knife",
-        "char": "\u5200"
+        "char": "\u5200",
+        "audio_tone": "da1o"
     },
     {
         "pinyin": "l\u00ec",
         "def": "force",
-        "char": "\u529b"
+        "char": "\u529b",
+        "audio_tone": "li4"
     },
     {
         "pinyin": "g\u00e8",
         "def": "measure word",
-        "char": "\u4e2a"
+        "char": "\u4e2a",
+        "audio_tone": "ge4"
     },
     {
         "pinyin": "sh\u00e0ng",
         "def": "up",
-        "char": "\u4e0a"
+        "char": "\u4e0a",
+        "audio_tone": "sha4ng"
     },
     {
         "pinyin": "xi\u00e0",
         "def": "down",
-        "char": "\u4e0b"
+        "char": "\u4e0b",
+        "audio_tone": "xia4"
     },
     {
         "pinyin": "m\u00f9",
         "def": "wood",
-        "char": "\u6728"
+        "char": "\u6728",
+        "audio_tone": "mu4"
     },
     {
         "pinyin": "m\u00e9n",
         "def": "door",
-        "char": "\u95e8"
+        "char": "\u95e8",
+        "audio_tone": "me2n"
     },
     {
         "pinyin": "j\u01d0",
         "def": "how many",
-        "char": "\u51e0"
+        "char": "\u51e0",
+        "audio_tone": "ji3"
     },
     {
         "pinyin": "y\u00f2u",
         "def": "both...and",
-        "char": "\u53c8"
+        "char": "\u53c8",
+        "audio_tone": "yo4u"
     },
     {
         "pinyin": "f\u0113i",
         "def": "fly",
-        "char": "\u98de"
+        "char": "\u98de",
+        "audio_tone": "fe1i"
     },
     {
         "pinyin": "m\u01ce",
         "def": "horse",
-        "char": "\u9a6c"
+        "char": "\u9a6c",
+        "audio_tone": "ma3"
     },
     {
         "pinyin": "y\u00ed",
         "def": "already",
-        "char": "\u5df2"
+        "char": "\u5df2",
+        "audio_tone": "yi2"
     },
     {
         "pinyin": "ji\u01d4",
         "def": "long(duration of time)",
-        "char": "\u4e45"
+        "char": "\u4e45",
+        "audio_tone": "jiu3"
     },
     {
         "pinyin": "g\u014dng",
         "def": "work",
-        "char": "\u5de5"
+        "char": "\u5de5",
+        "audio_tone": "go1ng"
     },
     {
         "pinyin": "w\u00e1ng",
         "def": "king",
-        "char": "\u738b"
+        "char": "\u738b",
+        "audio_tone": "wa2ng"
     },
     {
         "pinyin": "k\u0101i",
         "def": "open/drive",
-        "char": "\u5f00"
+        "char": "\u5f00",
+        "audio_tone": "ka1i"
     },
     {
         "pinyin": "ti\u0101n",
         "def": "sky/day",
-        "char": "\u5929"
+        "char": "\u5929",
+        "audio_tone": "tia1n"
     },
     {
         "pinyin": "y\u00fan",
         "def": "cloud",
-        "char": "\u4e91"
+        "char": "\u4e91",
+        "audio_tone": "yu2n"
     },
     {
         "pinyin": "b\u00f9",
         "def": "not",
-        "char": "\u4e0d"
+        "char": "\u4e0d",
+        "audio_tone": "bu4"
     },
     {
         "pinyin": "t\u00e0i",
         "def": "very",
-        "char": "\u592a"
+        "char": "\u592a",
+        "audio_tone": "ta4i"
     },
     {
         "pinyin": "y\u01d2u",
         "def": "friend",
-        "char": "\u53cb"
+        "char": "\u53cb",
+        "audio_tone": "yo3u"
     },
     {
         "pinyin": "ch\u0113",
         "def": "car",
-        "char": "\u8f66"
+        "char": "\u8f66",
+        "audio_tone": "che1"
     },
     {
         "pinyin": "y\u00e1",
         "def": "teeth",
-        "char": "\u7259"
+        "char": "\u7259",
+        "audio_tone": "ya2"
     },
     {
         "pinyin": "b\u00ed",
         "def": "compair",
-        "char": "\u6bd4"
+        "char": "\u6bd4",
+        "audio_tone": "bi2"
     },
     {
         "pinyin": "sh\u00e1o",
         "def": "less",
-        "char": "\u5c11"
+        "char": "\u5c11",
+        "audio_tone": "sha2o"
     },
     {
         "pinyin": "r\u00ec",
         "def": "day/sun",
-        "char": "\u65e5"
+        "char": "\u65e5",
+        "audio_tone": "ri4"
     },
     {
         "pinyin": "zh\u014dng",
         "def": "middle/chinese",
-        "char": "\u4e2d"
+        "char": "\u4e2d",
+        "audio_tone": "zho1ng"
     },
     {
         "pinyin": "shu\u01d0",
         "def": "water",
-        "char": "\u6c34"
+        "char": "\u6c34",
+        "audio_tone": "shui3"
     },
     {
         "pinyin": "ji\u00e0n",
         "def": "meet",
-        "char": "\u89c1"
+        "char": "\u89c1",
+        "audio_tone": "jia4n"
     },
     {
         "pinyin": "w\u01d4",
         "def": "noon/midway",
-        "char": "\u5348"
+        "char": "\u5348",
+        "audio_tone": "wu3"
     },
     {
         "pinyin": "sh\u01d2u",
         "def": "hand",
-        "char": "\u624b"
+        "char": "\u624b",
+        "audio_tone": "sho3u"
     },
     {
         "pinyin": "q\u00ed",
         "def": "air",
-        "char": "\u6c14"
+        "char": "\u6c14",
+        "audio_tone": "qi2"
     },
     {
         "pinyin": "m\u01ceo",
         "def": "hair/feather",
-        "char": "\u6bdb"
+        "char": "\u6bdb",
+        "audio_tone": "ma3o"
     },
     {
         "pinyin": "sh\u00e9n me",
         "def": "what",
-        "char": "\u4ec0\u4e48"
+        "char": "\u4ec0\u4e48",
+        "audio_tone": "she2n"
     },
     {
         "pinyin": "w\u01d2",
         "def": "I",
-        "char": "\u6211"
+        "char": "\u6211",
+        "audio_tone": "wo3"
     },
     {
         "pinyin": "n\u01d0",
         "def": "you",
-        "char": "\u4f60"
+        "char": "\u4f60",
+        "audio_tone": "ni3"
     },
     {
         "pinyin": "t\u0101",
         "def": "he",
-        "char": "\u4ed6"
+        "char": "\u4ed6",
+        "audio_tone": "ta1"
     },
     {
         "pinyin": "t\u0101",
         "def": "she",
-        "char": "\u5979"
+        "char": "\u5979",
+        "audio_tone": "ta1"
     },
     {
         "pinyin": "t\u01d4",
         "def": "soil/earth",
-        "char": "\u571f"
+        "char": "\u571f",
+        "audio_tone": "tu3"
     },
     {
         "pinyin": "sh\u0101n",
         "def": "hill",
-        "char": "\u5c71"
+        "char": "\u5c71",
+        "audio_tone": "sha1n"
     },
     {
         "pinyin": "zi/z\u01d0",
         "def": "son/person/boy/seed",
-        "char": "\u5b50"
+        "char": "\u5b50",
+        "audio_tone": "zi3"
     },
     {
         "pinyin": "ni\u00fa",
         "def": "cow",
-        "char": "\u725b"
+        "char": "\u725b",
+        "audio_tone": "niu2"
     },
     {
         "pinyin": "c\u00f3ng",
         "def": "from",
-        "char": "\u4ece"
+        "char": "\u4ece",
+        "audio_tone": "co2ng"
     },
     {
         "pinyin": "d\u00ec",
         "def": "ground",
-        "char": "\u5730"
+        "char": "\u5730",
+        "audio_tone": "di4"
     },
     {
         "pinyin": "y\u011b",
         "def": "also",
-        "char": "\u4e5f"
+        "char": "\u4e5f",
+        "audio_tone": "ye3"
     },
     {
         "pinyin": "q\u00f9",
         "def": "go",
-        "char": "\u53bb"
+        "char": "\u53bb",
+        "audio_tone": "qu4"
     },
     {
         "pinyin": "l\u00e1i",
         "def": "come",
-        "char": "\u6765"
+        "char": "\u6765",
+        "audio_tone": "la2i"
     },
     {
         "pinyin": "t\u00f3u",
         "def": "head",
-        "char": "\u5934"
+        "char": "\u5934",
+        "audio_tone": "to2u"
     },
     {
         "pinyin": "m\u01d0",
         "def": "rice",
-        "char": "\u7c73"
+        "char": "\u7c73",
+        "audio_tone": "mi3"
     },
     {
         "pinyin": "ti\u00e1n",
         "def": "field",
-        "char": "\u7530"
+        "char": "\u7530",
+        "audio_tone": "tia2n"
     },
     {
         "pinyin": "m\u00f9",
         "def": "eye",
-        "char": "\u76ee"
+        "char": "\u76ee",
+        "audio_tone": "mu4"
     },
     {
         "pinyin": "yu\u00e8",
         "def": "moon/month",
-        "char": "\u6708"
+        "char": "\u6708",
+        "audio_tone": "yue4"
     },
     {
         "pinyin": "\u011br",
         "def": "ear",
-        "char": "\u8033"
+        "char": "\u8033",
+        "audio_tone": "e3r"
     },
     {
         "pinyin": "yu\u00e1n",
         "def": "currency/basic monetary unit of China",
-        "char": "\u5143"
+        "char": "\u5143",
+        "audio_tone": "yua2n"
     },
     {
         "pinyin": "sh\u00e9",
         "def": "tongue",
-        "char": "\u820c"
+        "char": "\u820c",
+        "audio_tone": "she2"
     },
     {
         "pinyin": "x\u012bn",
         "def": "heart/mind",
-        "char": "\u5fc3"
+        "char": "\u5fc3",
+        "audio_tone": "xi1n"
     },
     {
         "pinyin": "hu\u01d2",
         "def": "fire",
-        "char": "\u706b"
+        "char": "\u706b",
+        "audio_tone": "huo3"
     },
     {
         "pinyin": "h\u00e9",
         "def": "grain",
-        "char": "\u79be"
+        "char": "\u79be",
+        "audio_tone": "he2"
     },
     {
         "pinyin": "y\u012b",
         "def": "one",
-        "char": "\u4e00"
+        "char": "\u4e00",
+        "audio_tone": "yi1"
     },
     {
         "pinyin": "\u00e8r",
         "def": "two",
-        "char": "\u4e8c"
+        "char": "\u4e8c",
+        "audio_tone": "e4r"
     },
     {
         "pinyin": "s\u0101n",
         "def": "three",
-        "char": "\u4e09"
+        "char": "\u4e09",
+        "audio_tone": "sa1n"
     },
     {
         "pinyin": "s\u00ec",
         "def": "four",
-        "char": "\u56db"
+        "char": "\u56db",
+        "audio_tone": "si4"
     },
     {
         "pinyin": "w\u01d4",
         "def": "five",
-        "char": "\u4e94"
+        "char": "\u4e94",
+        "audio_tone": "wu3"
     },
     {
         "pinyin": "li\u00f9",
         "def": "six",
-        "char": "\u516d"
+        "char": "\u516d",
+        "audio_tone": "liu4"
     },
     {
         "pinyin": "q\u012b",
         "def": "seven",
-        "char": "\u4e03"
+        "char": "\u4e03",
+        "audio_tone": "qi1"
     },
     {
         "pinyin": "b\u0101",
         "def": "eight",
-        "char": "\u516b"
+        "char": "\u516b",
+        "audio_tone": "ba1"
     },
     {
         "pinyin": "ji\u01d4",
         "def": "nine",
-        "char": "\u4e5d"
+        "char": "\u4e5d",
+        "audio_tone": "jiu3"
     },
     {
         "pinyin": "sh\u00ed",
         "def": "ten",
-        "char": "\u5341"
+        "char": "\u5341",
+        "audio_tone": "shi2"
     },
     {
         "pinyin": "b\u00e1i",
         "def": "white",
-        "char": "\u767d"
+        "char": "\u767d",
+        "audio_tone": "ba2i"
     },
     {
         "pinyin": "b\u01cei",
         "def": "hundred",
-        "char": "\u767e"
+        "char": "\u767e",
+        "audio_tone": "ba3i"
     },
     {
         "pinyin": "x\u012b",
         "def": "sunset",
-        "char": "\u5915"
+        "char": "\u5915",
+        "audio_tone": "xi1"
     },
     {
         "pinyin": "du\u014d",
         "def": "many",
-        "char": "\u591a"
+        "char": "\u591a",
+        "audio_tone": "duo1"
     },
     {
         "pinyin": "m\u00edng",
         "def": "name",
-        "char": "\u540d"
+        "char": "\u540d",
+        "audio_tone": "mi2ng"
     },
     {
         "pinyin": "zi/z\u00ec",
         "def": "words",
-        "char": "\u5b57"
+        "char": "\u5b57",
+        "audio_tone": "zi4"
     },
     {
         "pinyin": "d\u00e8/de",
         "def": "'s",
-        "char": "\u7684"
+        "char": "\u7684",
+        "audio_tone": "de"
     },
     {
         "pinyin": "ji\u00e0o",
         "def": "call/shout",
-        "char": "\u53eb"
+        "char": "\u53eb",
+        "audio_tone": "jia4o"
     },
     {
         "pinyin": "m\u0101",
         "def": "?",
-        "char": "\u5417"
+        "char": "\u5417",
+        "audio_tone": "ma1"
     }
 ]
