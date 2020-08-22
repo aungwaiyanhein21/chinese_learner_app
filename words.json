@@ -171,7 +171,7 @@
         "pinyin": "y\u00e1",
         "def": "teeth",
         "char": "\u7259",
-        "audio_tone": "ya2"
+        "audio_tone": "ya2_fallback"
     },
     {
         "pinyin": "b\u00ed",
