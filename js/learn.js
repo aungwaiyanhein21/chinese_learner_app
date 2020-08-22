@@ -84,17 +84,9 @@ function createWordContainer(wordObj, indx) {
     var wordContainerDivElement = document.createElement("div");
     wordContainerDivElement.className = "word-container";
 
-    console.log(wordObj["audio_tone"]);
     var chinese_audio = wordObj["audio_tone"];
 
-    /*
-    <audio id="audioPlayer" type="audio/mp3">
-                            You cannot listen to the pronunciation because your browser does not support the <code>audio</code> element.
-                        </audio>
-                        <div>
-                            <button class="btn" id="playAudioButton">►</button>
-                        </div>
-    */
+  
     // Create audio element
     var audioElement = document.createElement('audio');
     audioElement.setAttribute('type',"audio/mp3")
