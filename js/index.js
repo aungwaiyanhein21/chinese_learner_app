@@ -15,7 +15,7 @@ function init() {
         if (event.keyCode === 13) {
             event.preventDefault();
            
-            // click button
+            // click search button
             document.getElementById("searchButton").click();
         }
     }); 
@@ -150,6 +150,7 @@ function changeState(state) {
         learn();
     }
     if (current === TEST) {
+        test();
         //alert("Test");
     }
 }

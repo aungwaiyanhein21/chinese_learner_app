@@ -10,6 +10,7 @@
         <script src="https://cdn.jsdelivr.net/npm/hanzi-writer@2.2/dist/hanzi-writer.min.js"></script>
         <script src="js/index.js" defer></script>
         <script src="js/learn.js" defer></script>
+        <script src="js/test.js" defer></script>
     </head>
     <body>
         <header>
@@ -58,7 +59,49 @@
             </section>
 
             <section id="section3" class="section-not-selected">
-                <h3>Test(coming soon...)</h3><br>
+                <h3>Test(in progress)</h3><br>
+
+                <div class="test-word-container">
+                    <p id="progress">Progress: 2/5</p>
+                    <div class="word-container">
+                        <!--src="https://www.hantrainerpro.de/resources/pronunciations/ba2i.mp3"-->
+                        <audio id="audioPlayer" type="audio/mp3">
+                            You cannot listen to the pronunciation because your browser does not support the <code>audio</code> element.
+                        </audio>
+                        <div>
+                            <button class="btn" id="playAudioButton">►</button>
+                        </div>
+
+                        <div class="text-label">
+                            <label>Pinyin:</label>
+                            <input type="text" placeholder="eg. nǐ (or) ni3">
+                            <p>Correct Pinyin: </p>
+                        </div>
+                        <div class="text-label">
+                            <label>Def(one is enough):</label>      
+                            <input type="text" placeholder="eg. you"> 
+                            <p>Correct Def: </p>
+                        </div>
+                        
+                        <p>Character:</p>
+                        <div class="char-box">
+
+                        </div><br>
+
+                        <div class="mark-answer">
+                            <button class="btn">Check Answer</button>
+                            <a class="marked">Don't know</a>
+                        </div>
+
+                        <!--
+                        <div>
+                            <a class="marked">Overide: mark as correct</a>
+                        </div>
+                        -->
+                    </div>
+                    <button class="btn">Next Question</button>
+                </div>
+                
             </section>
         </main>
         

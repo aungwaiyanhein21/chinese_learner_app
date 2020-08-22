@@ -84,6 +84,55 @@ function createWordContainer(wordObj, indx) {
     var wordContainerDivElement = document.createElement("div");
     wordContainerDivElement.className = "word-container";
 
+    console.log(wordObj["audio_tone"]);
+    var chinese_audio = wordObj["audio_tone"];
+
+    /*
+    <audio id="audioPlayer" type="audio/mp3">
+                            You cannot listen to the pronunciation because your browser does not support the <code>audio</code> element.
+                        </audio>
+                        <div>
+                            <button class="btn" id="playAudioButton">►</button>
+                        </div>
+    */
+    // Create audio element
+    var audioElement = document.createElement('audio');
+    audioElement.setAttribute('type',"audio/mp3")
+    audioElement.id = "audioPlayer"+indx;
+    audioElement.innerHTML = "You cannot listen to the pronunciation because your browser does not support the <code>audio</code> element.";
+
+    if (chinese_audio.includes("fallback")) {
+        audioElement.src = "https://jamesrocker.github.io/chinese_learner_app/mp3/"+ chinese_audio +".mp3";
+    }
+    else {
+        audioElement.src = "https://www.hantrainerpro.de/resources/pronunciations/"+ chinese_audio +".mp3";
+    }
+ 
+    // attach audio element to the container
+    wordContainerDivElement.appendChild(audioElement);
+
+
+    var playButtonDiv = document.createElement("div");
+
+    var playButtonElement = document.createElement("button");
+    playButtonElement.className = "btn";
+    playButtonElement.onclick = function() {
+        playAudio(indx);
+    };
+    playButtonElement.innerHTML = '►';
+
+    playButtonDiv.appendChild(playButtonElement);
+    /*
+    var text = 'document.getElementById(\'audioPlayer\''+indx+').play()';
+    console.log("text");
+    playButtonDiv.innerHTML = "<button class='btn' onclick='"+ text +"'>►</button>"
+    */
+
+    wordContainerDivElement.appendChild(playButtonDiv);
+
+
+    
+
     var keys = Object.keys(wordObj);
     for (var i=0; i < 2; i++) {
         var pElement = document.createElement("p");
@@ -286,4 +335,11 @@ function practiceAll() {
     for (var i=0; i < hanziWriterObjArr.length; i++) {
         tryWriting(i);
     }
+}
+
+function playAudio(indx) {
+    var idText = "audioPlayer"+indx;
+    console.log(idText);
+    var audioPlayerElement = document.getElementById(idText);
+    audioPlayerElement.play();
 }
