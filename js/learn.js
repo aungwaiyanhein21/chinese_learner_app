@@ -331,7 +331,6 @@ function practiceAll() {
 
 function playAudio(indx) {
     var idText = "audioPlayer"+indx;
-    console.log(idText);
     var audioPlayerElement = document.getElementById(idText);
     audioPlayerElement.play();
 }
