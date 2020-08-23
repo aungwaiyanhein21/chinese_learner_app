@@ -100,27 +100,27 @@ function createWordContainer(wordObj, indx) {
         else {
             audioElement.src = "https://www.hantrainerpro.de/resources/pronunciations/"+ chinese_audio +".mp3";
         }
+
+        //audioElement.controls = true;
     
         // attach audio element to the container
         wordContainerDivElement.appendChild(audioElement);
 
+
+        
         var playButtonDiv = document.createElement("div");
 
         var playButtonElement = document.createElement("button");
-        playButtonElement.className = "btn";
+        playButtonElement.className = "btn play";
         playButtonElement.onclick = function() {
             playAudio(indx);
         };
         playButtonElement.innerHTML = '►';
 
         playButtonDiv.appendChild(playButtonElement);
-        /*
-        var text = 'document.getElementById(\'audioPlayer\''+indx+').play()';
-        console.log("text");
-        playButtonDiv.innerHTML = "<button class='btn' onclick='"+ text +"'>►</button>"
-        */
 
         wordContainerDivElement.appendChild(playButtonDiv);
+    
     } 
     else {
         var pElement = document.createElement("p");
