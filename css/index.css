@@ -167,5 +167,12 @@ main > section > h3 {
 }
 
 
+/***for test status ***/
+.test-option-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 
 
