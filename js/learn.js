@@ -111,11 +111,11 @@ function createWordContainer(wordObj, indx) {
         var playButtonDiv = document.createElement("div");
 
         var playButtonElement = document.createElement("button");
-        playButtonElement.className = "btn play";
+        playButtonElement.className = "btn";
         playButtonElement.onclick = function() {
             playAudio(indx);
         };
-        playButtonElement.innerHTML = '►';
+        playButtonElement.innerHTML = 'Play Audio';
 
         playButtonDiv.appendChild(playButtonElement);
 
