@@ -35,7 +35,7 @@ function learn() {
 
 function getWords() {
     // var url = "https://jamesrocker.github.io/chinese_learner_app/words.json";
-    var url = "../words.json";
+    var url = "words.json";
     fetch(url)
         .then(response => response.json())
         .then(wordsArr => {
@@ -72,6 +72,9 @@ function getWords() {
                 };
             }
         })
+        .catch(err => {
+            console.log('Error: ', err);
+        });
 
 
     // var xmlhttp = new XMLHttpRequest();
